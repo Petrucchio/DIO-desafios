@@ -1,0 +1,15 @@
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\bin\Debug\net6.0\Propriedades,metodos e consturtores.exe
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\bin\Debug\net6.0\Propriedades,metodos e consturtores.deps.json
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\bin\Debug\net6.0\Propriedades,metodos e consturtores.runtimeconfig.json
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\bin\Debug\net6.0\Propriedades,metodos e consturtores.dll
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\bin\Debug\net6.0\Propriedades,metodos e consturtores.pdb
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.csproj.AssemblyReference.cache
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.AssemblyInfoInputs.cache
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.AssemblyInfo.cs
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.csproj.CoreCompileInputs.cache
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.dll
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\refint\Propriedades,metodos e consturtores.dll
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.pdb
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.genruntimeconfig.cache
+C:\Users\vitux\source\repos\DIO\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\ref\Propriedades,metodos e consturtores.dll
