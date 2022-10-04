@@ -33,9 +33,12 @@ namespace Propriedades_metodos_e_consturtores.Models
 
         public void ListarAlunos()
         {
+            int numeracao_aluno = 1;
             Console.WriteLine($"Alunos do curso de : {Nome}");
-            foreach (Pessoa aluno in Alunos)
-                Console.WriteLine(aluno.NomeCompleto);
+            foreach (Pessoa aluno in Alunos) { 
+                Console.WriteLine($"{numeracao_aluno}-{aluno.NomeCompleto}");
+                numeracao_aluno++;
+            }
         }
     }
 }

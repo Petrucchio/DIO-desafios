@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitux\\source\\repos\\DIO\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj": {}
+    "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitux\\source\\repos\\DIO\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj": {
+    "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitux\\source\\repos\\DIO\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj",
+        "projectUniqueName": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj",
         "projectName": "Propriedades,metodos e consturtores",
-        "projectPath": "C:\\Users\\vitux\\source\\repos\\DIO\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj",
+        "projectPath": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj",
         "packagesPath": "C:\\Users\\vitux\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitux\\source\\repos\\DIO\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\obj\\",
+        "outputPath": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
