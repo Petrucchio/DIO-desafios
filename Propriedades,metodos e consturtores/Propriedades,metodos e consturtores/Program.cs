@@ -137,3 +137,45 @@ else
 }
 
 Console.WriteLine(estados["MG"]);
+
+//Estudo Tuplas
+Console.WriteLine("------------------------------");
+(int, string, string, decimal) tupla = (1, "Leonardo", "brotinho",1.85M);
+Console.WriteLine($"Id: {tupla.Item1}");
+Console.WriteLine($"Nome: {tupla.Item2}");
+Console.WriteLine($"Sobrenome: {tupla.Item3}");
+Console.WriteLine($"Altura: {tupla.Item4}");
+
+ValueTuple<int, string, string, decimal> outratupla = (2, "joao", "feijão", 1.90M);
+var tuplacreate = Tuple.Create(3, "roger", "farinha", 1.70M);
+
+Console.WriteLine("------------------------------");
+LeituraArquivo arquivo = new LeituraArquivo();
+
+var (Sucesso, linhasArquivo, _) = arquivo.LerArquivo("C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Arquivos\\ArquivoLeitura.txt");
+
+if (Sucesso)
+{
+    foreach (string linha in linhasArquivo)
+        Console.WriteLine(linha);
+}
+else
+{
+    Console.WriteLine("Não foi possivel ler o arquivo");
+}
+
+Console.WriteLine("------------------------------");
+Pessoa pessoa3 = new Pessoa("leandro", "raquel", 13);
+
+(string nome, string sobrenome) = pessoa3;
+
+Console.WriteLine($"{nome} {sobrenome}");
+
+//estudo if ternario
+Console.WriteLine("------------------------------");
+
+int numeroPar = 20;
+bool Par = false;
+
+Par = numeroPar % 2 == 0;
+Console.WriteLine($"O número {numeroPar} é " + (Par ? "par" : "impar"));

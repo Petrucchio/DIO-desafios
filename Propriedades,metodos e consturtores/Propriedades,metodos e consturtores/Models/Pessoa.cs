@@ -20,6 +20,12 @@ namespace Propriedades_metodos_e_consturtores.Models
             Idade = idade;
         }
 
+        public void Deconstruct(out string nome,out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
+
         private string _Nome;
         private string _Sobrenome;
         private int _Idade;
