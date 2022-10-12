@@ -1,1 +1,1 @@
-[{"Id":1,"Nome_Produto":"Material de escritorio","Preco":25.00,"DataVenda":"2022-10-11T01:56:07.0197314-03:00"},{"Id":2,"Nome_Produto":"Licença de Software","Preco":125.00,"DataVenda":"2022-10-11T01:56:07.0197314-03:00"}]
+[{"Id":1,"Nome_Produto":"Material de escritorio","Preco":25.00,"DataVenda":"2022-10-12T02:26:38.6724385-03:00","Desconto":null},{"Id":2,"Nome_Produto":"Licença de Software","Preco":125.00,"DataVenda":"2022-10-12T02:26:38.6724385-03:00","Desconto":10.0}]

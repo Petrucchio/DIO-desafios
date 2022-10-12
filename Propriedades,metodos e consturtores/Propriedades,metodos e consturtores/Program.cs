@@ -178,7 +178,7 @@ Console.WriteLine("------------------------------");
 int numeroPar = 20;
 bool Par = false;
 
-Par = numeroPar % 2 == 0;
+Par = numeroPar.ehPar();
 Console.WriteLine($"O número {numeroPar} é " + (Par ? "par" : "impar"));
 
 //estudo de json
@@ -186,8 +186,8 @@ Console.WriteLine("------------------------------");
 List<Venda> listavendas = new List<Venda>();
 DateTime dataatual = DateTime.Now;
 
-Venda v1 = new Venda(1, "Material de escritorio", 25.00M,dataatual);
-Venda v2 = new Venda(2, "Licença de Software", 125.00M,dataatual);
+Venda v1 = new Venda(1, "Material de escritorio", 25.00M,dataatual,null);
+Venda v2 = new Venda(2, "Licença de Software", 125.00M,dataatual,10);
 
 listavendas.Add(v1);
 listavendas.Add(v2);
@@ -202,4 +202,50 @@ string conteuArquivo = File.ReadAllText("C:\\Users\\vitux\\source\\repos\\DIO\\D
 List<Venda> vendas = JsonConvert.DeserializeObject<List<Venda>>(conteuArquivo);
 
 foreach (Venda venda in vendas)
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")} ");
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}{(venda.Desconto.HasValue ? ", Desconto: {venda.Desconto}" : "")}");
+
+//estudo de tipos especiais
+Console.WriteLine("------------------------------");
+bool? desejaReceberEmail = null;
+
+if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+{
+    Console.WriteLine("O usuário optou por receber e-mail");
+}
+else
+{
+    Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail");
+
+}
+
+
+//estudo de tipos Anonimos
+Console.WriteLine("------------------------------");
+var tipoAnonimo = new { Nome = "Leonardo", Sobrenome = "bolinho", altura = 1.85 };
+Console.WriteLine($"Nome: {tipoAnonimo.Nome}, Sobrenome: {tipoAnonimo.Sobrenome}, altura: {tipoAnonimo.altura}");
+
+var ListaAnonima = vendas.Select(x => new { x.Produto, x.Preco });
+foreach (var venda in ListaAnonima)
+    Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+
+
+//estudo de tipos Dinamicos
+Console.WriteLine("------------------------------");
+dynamic variavelDinamica = 4;
+Console.WriteLine($"Tipo da variavel: {variavelDinamica.GetType()} , Valor: {variavelDinamica}");
+variavelDinamica = "texto";
+Console.WriteLine($"Tipo da variavel: {variavelDinamica.GetType()} , Valor: {variavelDinamica}");
+variavelDinamica = true;
+Console.WriteLine($"Tipo da variavel: {variavelDinamica.GetType()} , Valor: {variavelDinamica}");
+
+//estudo de Classe generica
+Console.WriteLine("------------------------------");
+MeuArray<int> arrayInteiro = new MeuArray<int>();
+arrayInteiro.AdicionarElementoArray(30);
+Console.WriteLine(arrayInteiro[0]);
+
+MeuArray<string> arrayString = new MeuArray<string>();
+
+arrayString.AdicionarElementoArray("texto");
+
+Console.WriteLine(arrayString[0]);
