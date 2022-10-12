@@ -1,5 +1,6 @@
 ﻿using Propriedades_metodos_e_consturtores.Models;
 using System.Globalization;
+using Newtonsoft.Json;
 
 Pessoa pessoa = new Pessoa(nome:"robertinho",sobrenome: "xablau",idade:1);
 pessoa.Apresentar();
@@ -179,3 +180,26 @@ bool Par = false;
 
 Par = numeroPar % 2 == 0;
 Console.WriteLine($"O número {numeroPar} é " + (Par ? "par" : "impar"));
+
+//estudo de json
+Console.WriteLine("------------------------------");
+List<Venda> listavendas = new List<Venda>();
+DateTime dataatual = DateTime.Now;
+
+Venda v1 = new Venda(1, "Material de escritorio", 25.00M,dataatual);
+Venda v2 = new Venda(2, "Licença de Software", 125.00M,dataatual);
+
+listavendas.Add(v1);
+listavendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(listavendas);
+File.WriteAllText("C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Arquivos\\vendas.json", serializado);
+Console.WriteLine(serializado);
+//estudo de json ler Json
+
+string conteuArquivo = File.ReadAllText("C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Arquivos\\vendas.json");
+
+List<Venda> vendas = JsonConvert.DeserializeObject<List<Venda>>(conteuArquivo);
+
+foreach (Venda venda in vendas)
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")} ");

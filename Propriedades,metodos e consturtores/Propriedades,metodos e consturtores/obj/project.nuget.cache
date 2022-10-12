@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CD0+2HJmp622VPQseE+vQCuR/EOY60GFW2/ATNXoQcVmfWl6lx8uCM7ZZEnFu9NlR53PVDVJ6kVrMDPrQhv+Lg==",
+  "dgSpecHash": "bAaB1z0wRrxDuy7VRUjBqH3s730NPQ+GRfg0yZ/Y7SOBG1XEfezyCLw7wdM2UBOrTMt6e0uF1YR9lUtH6ZFq2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores\\Propriedades,metodos e consturtores.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vitux\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -28,3 +28,5 @@ C:\Users\vitux\source\repos\DIO\DIO-desafios\Propriedades,metodos e consturtores
 C:\Users\vitux\source\repos\DIO\DIO-desafios\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.pdb
 C:\Users\vitux\source\repos\DIO\DIO-desafios\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.genruntimeconfig.cache
 C:\Users\vitux\source\repos\DIO\DIO-desafios\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\ref\Propriedades,metodos e consturtores.dll
+C:\Users\vitux\source\repos\DIO\DIO-desafios\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\vitux\source\repos\DIO\DIO-desafios\Propriedades,metodos e consturtores\Propriedades,metodos e consturtores\obj\Debug\net6.0\Propriedades,metodos e consturtores.csproj.CopyComplete
