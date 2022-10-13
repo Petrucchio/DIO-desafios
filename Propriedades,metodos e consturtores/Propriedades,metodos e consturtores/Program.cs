@@ -249,3 +249,23 @@ MeuArray<string> arrayString = new MeuArray<string>();
 arrayString.AdicionarElementoArray("texto");
 
 Console.WriteLine(arrayString[0]);
+
+//estudo de tipo de referencia
+Console.WriteLine("------------------------------");
+
+Pessoa p1 = new Pessoa(nome: "yann", sobrenome: "sobral", idade: 12);
+Pessoa p2 = p1;
+p2.Nome = "vinis";
+
+Console.WriteLine($"Nome da pessoa p1: {p1.NomeCompleto}");
+Console.WriteLine($"Nome da pessoa p2: {p2.NomeCompleto}");
+
+//estudo de tipo de Valor
+Console.WriteLine("------------------------------");
+
+int a = 10;
+int b = a;
+b = 60;
+
+Console.WriteLine($"Valor e A: {a}");
+Console.WriteLine($"Valor e B: {b}");
