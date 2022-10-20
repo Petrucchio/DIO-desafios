@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prati_POO.Models
 {
-    internal class Professor : Pessoa
+    internal sealed class Professor : Pessoa
     {
         public Professor(string nome, int idade, double salario) : base(nome, idade)
         {
@@ -15,7 +15,7 @@ namespace Prati_POO.Models
 
         public double Salario { get; set; }
 
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Olá, Sou o Professor {Nome} e tenho {Idade} anos, com salario {Salario}");
         }
