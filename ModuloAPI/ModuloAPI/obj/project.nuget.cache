@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iKDZzzXFNIjauaHW/k+RkdVseQael/ClJG6WjLVrkt1QoXDctheVoV0cwL+aY8s0u+4Rg9zGwgKyAq6O+VAInA==",
+  "dgSpecHash": "E8fbNVRvwadwWDbFu4dI6K2Jg5+Koq8laQlgQRLqAOcnjlevxMzhvgi694dpM95CnXke8GYINbL2Ix5qFXoaEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitux\\source\\repos\\DIO\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj",
+  "projectFilePath": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitux\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vitux\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

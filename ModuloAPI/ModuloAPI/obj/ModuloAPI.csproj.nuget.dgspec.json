@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitux\\source\\repos\\DIO\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj": {}
+    "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitux\\source\\repos\\DIO\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj": {
+    "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitux\\source\\repos\\DIO\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj",
         "projectName": "ModuloAPI",
-        "projectPath": "C:\\Users\\vitux\\source\\repos\\DIO\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj",
+        "projectPath": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\ModuloAPI\\ModuloAPI\\ModuloAPI.csproj",
         "packagesPath": "C:\\Users\\vitux\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitux\\source\\repos\\DIO\\ModuloAPI\\ModuloAPI\\obj\\",
+        "outputPath": "C:\\Users\\vitux\\source\\repos\\DIO\\DIO-desafios\\ModuloAPI\\ModuloAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
